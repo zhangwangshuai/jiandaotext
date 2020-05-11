@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".home.view.fragment.NewsFragment">
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recycleview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+    <!--    <androidx.viewpager.widget.ViewPager-->
+    <!--        android:id="@+id/banner_viewpage"-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="150dp"-->
+    <!--        tools:ignore="MissingConstraints" />-->
+    <!--    <com.example.feame3.home.view.Banner_Indicator-->
+    <!--        android:id="@+id/banner_indicator"-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        app:layout_constraintTop_toBottomOf="@id/banner_viewpage"-->
+    <!--        android:layout_height="5dp"-->
+    <!--        tools:ignore="MissingConstraints" />-->
+
+
+</LinearLayout>
